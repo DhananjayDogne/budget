@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Monthly Finance Form</title>
+    <link rel="stylesheet" href="form.css" />
+</head>
+
+<body>
+    <h2>Monthly Finance Tracker</h2>
+    <p>Please enter your monthly income and expenses:</p>
+
+    <form action="/process_data" method="post">
+        <label for="income">Monthly Income ($):</label>
+        <input type="number" id="income" name="income" required>
+
+        <label for="expenses">Monthly Expenses ($):</label>
+        <input type="number" id="expenses" name="expenses" required>
+
+        <label for="electricity">Electricity Expenses ($):</label>
+        <input type="number" id="electricity" name="electricity" required>
+
+        <label for="food">Food Expenses ($):</label>
+        <input type="number" id="food" name="food" required>
+
+        <label for="other">Other Expenses ($):</label>
+        <input type="number" id="other" name="other" required>
+
+        <input type="submit" value="Submit">
+    </form>
+</body>
+
+</html>
