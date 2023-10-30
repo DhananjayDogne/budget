@@ -6,7 +6,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 // MongoDB Atlas connection string
-const uri = 'mongodb+srv://dhananjaydogne:DD@cluster0.q565lol.mongodb.net/?retryWrites=true&w=majority';
+const uri = 'youruri';
 
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static(__dirname));
